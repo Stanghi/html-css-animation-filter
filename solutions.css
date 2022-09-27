@@ -28,3 +28,8 @@
     transition: .1s;
     filter: grayscale(100%)
 }
+
+.ex-7-img:hover{
+    transition: 2s;
+    filter: sepia(100%);
+}
