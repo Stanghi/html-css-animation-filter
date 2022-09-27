@@ -4,8 +4,8 @@
 }
 
 .ex-2-square:active{ /* DA FINIRE RIENTRO */
+    transition: 3s;
     width: 100%;
-    transition: width 3s;
     transition-timing-function: ease-out;
 }
 
@@ -43,7 +43,8 @@
 .ex-9-img:hover{
     transition: 2s;
     border-radius: 25px;
-    filter: grayscale(80%)
+    filter: grayscale(80%);
+    transform: scale(1.5, 1.5);
 }
 
 .ex-9-img:hover{
