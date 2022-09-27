@@ -9,3 +9,7 @@
     transition-timing-function: ease-out;
 }
 
+.ex-3-square:hover{
+    border-radius: 50%;
+    transition: .5s;
+}
