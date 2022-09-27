@@ -45,3 +45,21 @@
     border-radius: 25px;
     filter: grayscale(80%)
 }
+
+.ex-9-img:hover{
+    transition: 2s;
+    border-radius: 25px;
+    filter: grayscale(80%)
+}
+
+.ex-10-icon {
+    animation: spin 1s linear;
+    animation-iteration-count: infinite;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(1turn);
+    }
+}
+
