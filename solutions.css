@@ -63,3 +63,18 @@
     }
 }
 
+.ex-11-icon:hover {
+    animation: spin-ex-11 2s linear;
+}
+@keyframes spin-ex-11 {
+    0% {
+        transform: rotate(0);
+    }
+    90% {
+        transform: rotate(315deg);
+    }
+    100% {
+        transform: rotate(0);
+    }
+}
+
