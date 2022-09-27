@@ -3,4 +3,9 @@
     background-color: red;
 }
 
+.ex-2-square:active{ /* DA FINIRE RIENTRO */
+    width: 100%;
+    transition: width 3s;
+    transition-timing-function: ease-out;
+}
 
