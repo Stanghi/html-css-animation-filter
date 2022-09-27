@@ -13,3 +13,8 @@
     border-radius: 50%;
     transition: .5s;
 }
+
+.ex-4-square:hover{
+    background-color: white;
+    transition: 1.5s;
+}
